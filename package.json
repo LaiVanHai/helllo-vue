@@ -2,7 +2,8 @@
   "name": "app",
   "private": "true",
   "scripts": {
-    "eslint": "eslint './app/javascript/**/*.vue'"
+    "eslint": "eslint './app/javascript/**/*.vue'",
+    "build": "webpack"
   },
   "dependencies": {
     "@rails/webpacker": "4.3.0",

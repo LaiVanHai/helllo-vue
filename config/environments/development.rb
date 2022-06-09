@@ -17,6 +17,9 @@ Rails.application.configure do
   # Enable server timing
   config.server_timing = true
 
+  # Make javascript_pack_tag load assets from webpack-dev-server.
+  # config.x.webpacker[:dev_server_host] = 'http://localhost:8080'
+
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
   if Rails.root.join("tmp/caching-dev.txt").exist?

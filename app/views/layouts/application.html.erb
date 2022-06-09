@@ -7,10 +7,10 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body>
+    <%= javascript_pack_tag 'hello_vue' %>
     <%= yield %>
   </body>
 </html>
